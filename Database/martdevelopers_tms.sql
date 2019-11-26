@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Nov 22, 2019 at 06:43 AM
+-- Generation Time: Nov 26, 2019 at 03:13 PM
 -- Server version: 10.1.38-MariaDB
 -- PHP Version: 7.1.26
 
@@ -123,9 +123,7 @@ CREATE TABLE `tms_user` (
 --
 
 INSERT INTO `tms_user` (`u_id`, `u_fname`, `u_lname`, `u_phone`, `u_addr`, `u_category`, `u_email`, `u_pwd`, `u_car_type`, `u_car_regno`, `u_car_bookdate`, `u_car_book_status`) VALUES
-(1, 'Esther', 'Ngundo', '070678909', '90100 Machakos', 'User', 'essngundo@tms.com', 'ess123', 'Bus', 'KCA 120B', '2019-11-26', 'Approved'),
-(3, 'Esther', 'Ngundo', '070678909', '90100 Machakos ', 'Driver', 'essngundo@tms.com', 'ess123', '', '', '', ''),
-(4, 'Mart', 'Developers', '0704031263', '127.0.0.1 Localhost', 'User', 'martdevelopers254@gmail.com', 'demo', '', '', '', '');
+(3, 'Demo', 'User', '070678909', '90100 Machakos ', 'Driver', 'demouser@tms.com', 'demo123', '', '', '', '');
 
 -- --------------------------------------------------------
 
@@ -226,7 +224,7 @@ ALTER TABLE `tms_syslogs`
 -- AUTO_INCREMENT for table `tms_user`
 --
 ALTER TABLE `tms_user`
-  MODIFY `u_id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `u_id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `tms_vehicle`
