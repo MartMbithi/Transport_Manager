@@ -14,6 +14,3 @@ TMS is a web based Transport Sacco Management system crafted with core php
 <li>demo123</li>
 <hr>
 <hr>
-![main screen 1](https://github.com/MartMbithi/Transport_Manager/blob/master/1.png)<br>
-![main screen 2](https://github.com/MartMbithi/Transport_Manager/blob/master/2.png)<br>
-![main screen 3](https://github.com/MartMbithi/Transport_Manager/blob/master/3.png)<br>
